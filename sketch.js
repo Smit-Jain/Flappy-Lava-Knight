@@ -67,9 +67,8 @@ function draw() {
     fill("white");
     text("Click to Start the Game",100,230);
     textSize(15)
-    text("- Don't Touch the Lava below the player",60,400);
-    text("- Don't touch the lava coming from the top",50,430);
-    text("- The invisible ground below the player will be disappeared",0,460)
+    text("- Don't Touch the Lava below the player",60,430);
+    text("- Don't touch the lava coming from the top",50,460);
     text("when you start the game",120,480)
     text("- Press SPACE to jump",120,520);
     text("- Press LEFT ARROW to move left",70,550);
