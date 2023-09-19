@@ -100,10 +100,10 @@ function draw() {
       ground.y=300;
     }*/  
   
-    if(keyDown("LEFT_ARROW" || "A")){
+    if(keyDown("LEFT_ARROW") || keyDown("A")){
       player.x=player.x-5;
     }
-    if(keyDown("RIGHT_ARROW" || "D")){
+    if(keyDown("RIGHT_ARROW") || keyDown("D")){
       player.x=player.x+5;
     }
     if(keyWentDown("space")){
